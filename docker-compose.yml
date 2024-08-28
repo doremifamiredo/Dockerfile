@@ -1,7 +1,0 @@
-services:
-
-  db-cards-app:
-    build: ./image
-    image: db-cards-app:1.0
-    ports:
-      - '9999:9999'
