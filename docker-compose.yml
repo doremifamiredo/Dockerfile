@@ -1,0 +1,7 @@
+services:
+
+  cards-java-app:
+    build: ./image
+    image: cards-java-app
+    ports:
+      - '9999:9999'
